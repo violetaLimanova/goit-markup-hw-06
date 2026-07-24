@@ -1,0 +1,95 @@
+.section-features .title-features {
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .section-features .title-features {
+    text-align: start;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .section-features .title-features {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+}
+
+.section-features .text-features {
+  color: #434455;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+@media only screen and (min-width: 1158px) {
+  .section-features .text-features {
+    font-weight: 400;
+  }
+}
+
+.features-list {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+}
+
+@media only screen and (min-width: 768px) {
+  .features-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+  }
+
+  .features-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .features-list {
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .features-item {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+}
+
+.section-features {
+  padding: 96px 0px;
+}
+
+@media only screen and (min-width: 1158px) {
+  .section-features {
+    padding: 120px 0px;
+  }
+}
+
+@media only screen and (max-width: 1157.98px) {
+  .features-container {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .features-container {
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    background: #f4f4fd;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+}

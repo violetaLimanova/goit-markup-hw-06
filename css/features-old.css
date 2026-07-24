@@ -1,0 +1,40 @@
+.section-features .title-features {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+.section-features .text-features {
+  font-weight: 400;
+  color: #434455;
+  letter-spacing: 0.02em;
+}
+
+.features-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.features-item {
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.section-features {
+  padding: 120px 0px;
+}
+
+.features-container {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  background: #f4f4fd;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
