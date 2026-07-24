@@ -56,8 +56,10 @@
   background-color: #404bbf;
 }
 
-.address {
-  padding: 16px 0;
+@media only screen and (max-width: 1157.98px) {
+  .address {
+    padding: 16px 0;
+  }
 }
 
 .address-link {
