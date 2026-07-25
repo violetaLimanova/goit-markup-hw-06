@@ -151,7 +151,12 @@
 
 .footer-inf {
   display: block;
-  margin-left: auto;
+}
+
+@media only screen and (min-width: 1158px) {
+  .footer-inf {
+    margin-left: auto;
+  }
 }
 
 .footer-title {
