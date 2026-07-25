@@ -27,6 +27,7 @@
   padding: 72px 16px 40px;
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 .menu-close-btn {
@@ -100,8 +101,8 @@
   font-style: normal;
 }
 
-.mobile-phone-link {
-  color: #404bbf;
+.mobile-address-link.current {
+  color: #4d5ae5;
 }
 
 .mobile-social-list {

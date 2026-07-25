@@ -66,7 +66,6 @@
   .footer-container {
     flex-wrap: nowrap;
     align-items: baseline;
-    justify-content: center;
     gap: 80px;
   }
 }
@@ -94,12 +93,13 @@
 
 .social-footer {
   display: block;
+  text-align: center;
   /* margin-left: 40px; */
 }
 
 @media only screen and (min-width: 1158px) {
   .social-footer {
-    margin-right: 83px;
+    margin-right: 0;
   }
 }
 
@@ -124,6 +124,7 @@
 .footer-item {
   display: flex;
   gap: 16px;
+  justify-content: center;
 }
 
 .link-footer {
@@ -150,6 +151,7 @@
 
 .footer-inf {
   display: block;
+  margin-left: auto;
 }
 
 .footer-title {
