@@ -41,8 +41,7 @@
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  max-width: 408px;
-  min-width: 288px;
+  width: 288px;
   min-height: 623px;
   box-shadow:
     0 1px 1px 0 rgba(0, 0, 0, 0.14),
@@ -53,6 +52,7 @@
 @media only screen and (min-width: 768px) {
   .overlay-item {
     padding: 72px 24px 24px;
+    max-width: 408px;
     min-height: 584px;
   }
 }
