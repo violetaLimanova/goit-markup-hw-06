@@ -99,7 +99,7 @@
 
 @media only screen and (min-width: 1158px) {
   .social-footer {
-    margin-left: auto;
+    margin-right: 83px;
   }
 }
 
@@ -150,12 +150,6 @@
 
 .footer-inf {
   display: block;
-}
-
-@media only screen and (min-width: 1158px) {
-  .footer-inf {
-    margin-left: auto;
-  }
 }
 
 .footer-title {
